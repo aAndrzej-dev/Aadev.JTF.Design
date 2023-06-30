@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+	<UseWindowsForms>true</UseWindowsForms>
+    <Nullable>enable</Nullable>
+    <AssemblyName>Aadev.JTF.Design</AssemblyName>
+    <RootNamespace>Aadev.JTF.Design</RootNamespace>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <PackageId>Aadev.JTF.Design</PackageId>
+    <Title>Aadev.JTF.Design</Title>
+    <Authors>aAndrzej-dev</Authors>
+    <Copyright>Copyright © aAndrzej-dev 2023</Copyright>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Version>1.0.0-beta1</Version>
+    <AssemblyVersion>1.0.0.1</AssemblyVersion>
+    <FileVersion>1.0.0.1</FileVersion>
+    <RepositoryUrl>https://github.com/aAndrzej-dev/Aadev.JTF.Design.git</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageProjectUrl>https://github.com/aAndrzej-dev/Aadev.JTF.Design</PackageProjectUrl>
+    <DebugType>none</DebugType>
+	<PackageLicenseExpression>MIT</PackageLicenseExpression>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Aadev.JTF" Version="2.0.0-beta5" />
+  </ItemGroup>
+
+</Project>
